@@ -1,57 +1,61 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ContextProvider from "./Context/ContextProvider";
+// import Home from "./Pages/Home/Home";
+// import About from "./Pages/About/About";
+// import AboutTwo from "./Pages/About/AboutTwo";
+// import Blog from "./Pages/Blog/Blog";
+// import BlogTwo from "./Pages/Blog/BlogTwo";
+// import Contact from "./Pages/Contact/Contact";
+// import ContactTwo from "./Pages/Contact/ContactTwo";
+// import Home from "./Pages/Home/Home";
+import HomePage from "./Pages/Home/HomePage";
+// import HomeTwo from "./Pages/Home/HomeTwo";
+// import Portfilo from "./Pages/Portfilo/Portfilo";
+// import PortfiloTwo from "./Pages/Portfilo/PortfiloTwo";
+// import Resume from "./Pages/Resume/Resume";
+// import ResumeTwo from "./Pages/Resume/ResumeTwo";
+// import NotFound from "./Share/NotFound";
+// import Preview from "./Share/Preview";
 
 function App() {
+  //   useEffect(() => {
+  //     AOS.init({ duration: 1200 });
+  //     AOS.refresh();
+  //   }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
-    </div>
+    <>
+      <HomePage />
+
+      {/* <Home /> */}
+      {/* <ContextProvider>
+        <BrowserRouter>
+          <Routes> */}
+      {/* <Route path="/" element={<Preview />} /> */}
+      {/* <Route path="/home" element={<Home />}>
+              <Route index element={<HomePage />} /> */}
+      {/* <Route path="homePage" element={<HomePage />} />
+              <Route path="resume" element={<Resume />} />
+              <Route path="about" element={<About />} />
+              <Route path="contact" element={<Contact />} />
+              <Route path="blogs" element={<Blog />} />
+              <Route path="works" element={<Portfilo />} /> */}
+      {/* </Route> */}
+      {/* <Route path="/homeTwo" element={<HomeTwo />}>
+              <Route index element={<AboutTwo />} />
+              <Route path="about" element={<AboutTwo />} />
+              <Route path="resume" element={<ResumeTwo />} />
+              <Route path="contact" element={<ContactTwo />} />
+              <Route path="blogs" element={<BlogTwo />} />
+              <Route path="works" element={<PortfiloTwo />} />
+            </Route> */}
+      {/* <Route path="*" element={<NotFound />} /> */}
+      {/* </Routes>
+        </BrowserRouter>
+      </ContextProvider> */}
+    </>
   );
 }
 
