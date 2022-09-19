@@ -1,7 +1,7 @@
-import "./App.css";
+// import "./App.css";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ContextProvider from "./Context/ContextProvider";
