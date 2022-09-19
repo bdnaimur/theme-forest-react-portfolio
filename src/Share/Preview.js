@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/logo/logo-preview.png";
+// import logo from "../assets/images/logo/logo-preview.png";
 import homeonelight from "../assets/images/preview/homeonelight.png";
 import homeonedark from "../assets/images/preview/homeonedark.png";
 import hometwolight from "../assets/images/preview/hometwolight.png";
@@ -139,7 +139,7 @@ const Preview = () => {
           {/* Site logo */}
           <img
             className="inline-block h-[26px] lg:h-[46px]"
-            src={logo}
+            // src={logo}
             alt="logo"
             data-aos="fade"
           />

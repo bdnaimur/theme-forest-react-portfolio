@@ -5,13 +5,14 @@ import {
   FaMobileAlt,
   FaRegCalendarAlt,
 } from "react-icons/fa";
-import "slick-carousel/slick/slick-theme.css";
-import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css";
 import aboutImage from "../../assets/images/about/about.jpg";
-import "../../Share/Style.css";
+// import "../../Share/Style.css";
+// import '../../Share/'
 import Footer from "../../Share/Footer";
 import UseData from "../../Hooks/UseData";
-import SliderCommon from "../../Share/SliderCommon";
+// import SliderCommon from "../../Share/SliderCommon";
 import AboutCard from "./AboutCard";
 import PageTitle from "../../Share/PageTitle";
 
@@ -24,7 +25,8 @@ const About = () => {
 
       <section>
         <div className="container lg:rounded-2xl bg-white dark:bg-[#111111]  px-4 sm:px-5 md:px-10 lg:px-20">
-          <div data-aos="fade">
+          {/* <div data-aos="fade"> */}
+          <div>
             <div className="py-12">
               {/* Page Title */}
               <h2 className="after-effect after:left-52 mt-12 lg:mt-0 ">
@@ -148,7 +150,7 @@ const About = () => {
 
             <div>
               {/* Slick Slider call here  */}
-              <SliderCommon />
+              {/* <SliderCommon /> */}
             </div>
 
             {/* Common Footer call here */}

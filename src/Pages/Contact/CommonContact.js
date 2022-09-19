@@ -46,7 +46,7 @@ const CommonContact = ({ condition }) => {
 
   return (
     <div
-      data-aos="fade"
+      // data-aos="fade"
       className={`${
         condition
           ? "mx-4 md:mx-[60px] p-4 md:p-16 dark:border-[#212425] dark:border-2"

@@ -14,7 +14,8 @@ const Resume = () => {
       {/* End pagetitle */}
 
       <section className="bg-white  lg:rounded-2xl dark:bg-[#111111]">
-        <div data-aos="fade">
+        {/* <div data-aos="fade"> */}
+        <div>
           <div className="container  sm:px-5 md:px-10 lg:px-20">
             <div className="py-12 px-4">
               {/*page title here */}

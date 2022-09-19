@@ -13,7 +13,8 @@ const Contact = () => {
       {/* End pagetitle */}
 
       <section className="bg-white lg:rounded-2xl dark:bg-[#111111]">
-        <div data-aos="fade">
+        {/* <div data-aos="fade"> */}
+        <div>
           <div className="container px-4 sm:px-5 md:px-10 lg:px-20">
             <div className="py-12">
               <h2 className="after-effect after:left-40 mb-[40px] mt-12  lg:mt-0">
@@ -35,7 +36,7 @@ const Contact = () => {
                     >
                       <span className="w-8 mt-2">
                         <img
-                          src={item.icon}
+                          // src={item.icon}
                           alt="icon"
                           className="text-4xl dark:text-white"
                         />
